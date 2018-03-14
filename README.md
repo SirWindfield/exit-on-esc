@@ -7,7 +7,21 @@
 [![pkgsign-badge]][pkgsign-url]
 
 A small library that will quit the process if a user presses the escape key.
-![example-url]
+
+```javascript
+const exitHandler = require('exit-on-esc');
+
+// initialize escape handler.
+exitHandler();
+```
+
+## Installation
+
+Install it using your favorite package manager!
+
+```
+$ npm install exit-on-esc
+```
 
 [greenkeeper-badge]: https://badges.greenkeeper.io/SirWindfield/exit-on-escape.svg
 [greenkeeper-url]: https://greenkeeper.io/
@@ -19,4 +33,3 @@ A small library that will quit the process if a user presses the escape key.
 [commitizen-url]: http://commitizen.github.io/cz-cli/
 [pkgsign-badge]: https://us-central1-pkgsign.cloudfunctions.net/pkgsign-badge?name=exit-on-esc&expectedIdentity=%40sirwindfield
 [pkgsign-url]: https://github.com/RedpointGames/pkgsign
-[example-url]: https://user-images.githubusercontent.com/5113257/37423213-9402f356-27bd-11e8-914b-492f3c7f8512.png
