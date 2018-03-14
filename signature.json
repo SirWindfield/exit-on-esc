@@ -1,0 +1,29 @@
+{
+  "version": "v1alpha",
+  "files": [
+    {
+      "path": "package.json",
+      "sha512": "61684d6997b32283352d733de6eb3f9403b7ebbc7a8fae356b31e1d98a7b8ef1591464647b0bbc824366da5aa3ce40c33d71a0c773d427067ebdfa85a1656275"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha512": "40140a8779ec7a06e476ff04cac438b4e3774be5494fe0026c001b22aa617ebf3d8e365962d4757e302a70930713e7f83efc9b643afd82b651d2104640f65862"
+    },
+    {
+      "path": "index.js",
+      "sha512": "821a4ff61db0497be08dd7dcae532bd6bd39f220a97bbf89205620c1dc3bd3610db91440be6b81ded3981d15c3288e46ed3752a76771c8fcd10429589704961d"
+    },
+    {
+      "path": "LICENSE.md",
+      "sha512": "4edb878f82e06a1cb677bf1f9637849da04e82593c471bbedd287cf4115373d6c5c331b46f84af778c3083fbeef675b8ef22bea617326f7635e33071ada8bacb"
+    },
+    {
+      "path": "README.md",
+      "sha512": "afec757687a353101aca363914703f836e57f608adb01401ef2557bab101b90522f44b033fc0bb220655125281e521d03cb658193c0b337a94c2eb2b35e9cf35"
+    }
+  ],
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJaqW0YCRDsIjb14KIK9QAAZCMQAAbZSMsTeRwBCos7XjLPnS37\nWECZrMhpvN9nH7BOeQhjyd9kmHRDbQr9edUf/jTNoZinQK6lZ1Re1McZQGeWpqIG\nECJICbPvETmlmGNDuN7q53YaZZHFH0/bAOBvK4mUwNUuB4hjjNOZ83pfjc6ETv+K\nYzi+2+0pYSuT5EeCKysRONeUvc9uK6ji2igO3pzNWujv8zJtkdsKhuwcwCJIyood\nCVuX4JDMat259oTsl7Ffhn5EklWGczAdZkki4fF0QKRTUxPifZ/gHORkN0JKEFOW\n9pe+C8iqT/u3MTNd/Q4bDJmY90TTVL+3vSrNi2LSVJ8bW+FM5qVh9MqXnkAvLlgp\nsyu6Gziv7xacewwOYz11SbW1Yvl7E0SuBk2jINkMI4MGNVkVE/OPGfdXhp4Zgfa1\nwqGg+0njKFJ3d7/661HUKJFD2407nGlxz94ixD3+wdULdR4s3EJb1ifj6Qlra217\noq8jiIeOxTwZSNxD99LMmt0hnmKQQAy3QgkLYTLVHBsNNUlcB+7eM0/8uObjcCbv\nmywGrre5JmCiLo72P0piLuQr3UHK97yQ+ePjGYh9wGICyjUHyCuIU1Hdn9E8xHNt\nspF17/s2zQUi1YB0Y9Rqy8w5FDE4UYSc71k+GsTyZXjQpoVFWgy8fesmzNpNEULu\nbkvbL2+PS0krJNF0OQ0L\n=Xipw\n-----END PGP SIGNATURE-----\n",
+  "identity": {
+    "keybaseUser": "sirwindfield"
+  }
+}
