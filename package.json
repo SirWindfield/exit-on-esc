@@ -1,0 +1,61 @@
+{
+  "name": "exit-on-esc",
+  "version": "0.0.1",
+  "description": "A small debug library to print a buffer's content as a hex table",
+  "main": "index.js",
+  "scripts": {
+    "ci:all": "npm-run-all -s ci:lint",
+    "ci:coverage": "codecov",
+    "ci:lint": "npm run lint",
+    "lint": "eslint index.js",
+    "prettier": "prettier --write index.js",
+    "release": "standard-version -s",
+    "sign": "pkgsign sign .",
+    "sign-commit": "git add signature.json && git commit -m \"chore(signature): Updated signature.json file\"",
+    "prepublish": "in-publish && git push --follow-tags origin master || not-in-publish"
+  },
+  "standard-version": {
+    "scripts": {
+      "pretag": "npm run sign && npm run sign-commit"
+    }
+  },
+  "files": [
+    "signature.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirWindfield/exit-on-esc.git"
+  },
+  "keywords": [
+    "exit",
+    "escape"
+  ],
+  "author": "Sven Lechner",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SirWindfield/exit-on-esc/issues"
+  },
+  "homepage": "https://github.com/SirWindfield/exit-on-esc#readme",
+  "devDependencies": {
+    "codecov": "^3.0.0",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.6.1",
+    "in-publish": "^2.0.0",
+    "npm-run-all": "^4.0.2",
+    "prettier": "^1.11.1",
+    "standard-version": "^4.3.0"
+  },
+  "dependencies": {},
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
